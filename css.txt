@@ -65,7 +65,35 @@ section {
 
 #search-form input {
   padding: 0.5em; /* add some padding */
-  font-size: 1.
+  font-size: 1.2em; /* increase font size */
+  border: none; /* remove border */
+  box-shadow: 0px 0px 5px #ccc; /* add a subtle shadow */
+  background-color: #fff; /* white background color */
+  color: #333; /* dark gray text color */
+}
+
+#search-form button {
+  background-color: #00bcd4; /* blue background color */
+  color: #fff; /* white text color */
+  padding: 0.5em 1em; /* add some padding */
+  border: none; /* remove border */
+  cursor: pointer; /* change cursor to pointer */
+  font-size: 1.2em; /* increase font size */
+  box-shadow: 0px 0px 5px #ccc; /* add a subtle shadow */
+  font-weight: bold; /* make the button text bold */
+}
+
+#search-form button:hover {
+  background-color: #008c9e; /* darken background color on hover */
+}
+
+footer {
+  background-color: #333; /* dark gray background color */
+  color: #fff; /* white text color */
+  padding: 1em; /* add some padding */
+  text-align: center; /* center the content */
+  font-size: 1.2em; /* increase font size */
+  font-weight: bold; /* make the footer text bold */
 }
 
 
