@@ -6,6 +6,12 @@ body {
 
 h1, h2 {
   font-weight: bold; /* make the headings bold */
+  text-align: center; /* center the headings */
+}
+
+nav {
+  background-color: #333; /* dark gray background color */
+  padding: 1em; /* add some padding */
 }
 
 nav ul {
@@ -15,7 +21,7 @@ nav ul {
 }
 
 nav a {
-  color: #333; /* dark gray text color */
+  color: #fff; /* white text color */
   text-decoration: none; /* remove underline */
   padding: 1em; /* add some padding */
   font-size: 1.2em; /* increase font size */
@@ -42,6 +48,9 @@ section {
 #recipe-list li {
   width: 30%; /* set the width of each recipe item */
   margin: 1em; /* add some margin */
+  background-color: #f5f5f5; /* light gray background color */
+  padding: 1em; /* add some padding */
+  box-shadow: 0px 0px 10px #ccc; /* add a subtle shadow */
 }
 
 #recipe-list img {
@@ -56,29 +65,7 @@ section {
 
 #search-form input {
   padding: 0.5em; /* add some padding */
-  font-size: 1.2em; /* increase font size */
-  border: none; /* remove border */
-  box-shadow: 0px 0px 5px #ccc; /* add a subtle shadow */
+  font-size: 1.
 }
-
-#search-form button {
-  background-color: #00bcd4; /* blue background color */
-  color: #fff; /* white text color */
-  padding: 0.5em 1em; /* add some padding */
-  border: none; /* remove border */
-  cursor: pointer; /* change cursor to pointer */
-  font-size: 1.2em; /* increase font size */
-}
-
-#search-form button:hover {
-  background-color: #008c9e; /* darken background color on hover */
-}
-
-footer {
-  background-color: #333; /* dark gray background color */
-  color: #fff; /* white text color */
-  padding: 1em; /* add some padding */
-  text-align: center; /* center the content
- }
 
 
