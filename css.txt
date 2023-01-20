@@ -79,5 +79,6 @@ footer {
   color: #fff; /* white text color */
   padding: 1em; /* add some padding */
   text-align: center; /* center the content
+ }
 
 
