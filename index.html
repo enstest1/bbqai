@@ -2,21 +2,71 @@
 <html>
 <head>
   <title>BBQ Recipes</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
 </head>
 <body>
-  <h1>BBQ Recipes</h1>
-  <ul>
-    <li>
-      <h2>BBQ Ribs</h2>
-      <p>Ingredients: ...</p>
-      <p>Instructions: ...</p>
-    </li>
-    <li>
-      <h2>BBQ Chicken</h2>
-      <p>Ingredients: ...</p>
-      <p>Instructions: ...</p>
-    </li>
-    ...
-  </ul>
-</body>
-</html>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#ribs">Ribs</a></li>
+        <li><a href="#chicken">Chicken</a></li>
+        <li><a href="#beef">Beef</a></li>
+        <li><a href="#seafood">Seafood</a></li>
+        <li><a href="#sides">Sides</a></li>
+      </ul>
+    </nav>
+    <form id="search-form">
+      <input type="text" id="search-input" placeholder="Search for a recipe...">
+      <button type="submit">Search</button>
+    </form>
+  </header>
+  <main>
+    <section id="ribs">
+      <h1>Ribs</h1>
+      <ul id="recipe-list">
+        <li>
+          <img src="ribs-1.jpg" alt="BBQ Ribs">
+          <h2>BBQ Ribs</h2>
+          <p>Ingredients: ...</p>
+          <p>Instructions: ...</p>
+        </li>
+        <li>
+          <img src="ribs-2.jpg" alt="Dry Rub Ribs">
+          <h2>Dry Rub Ribs</h2>
+          <p>Ingredients: ...</p>
+          <p>Instructions: ...</p>
+        </li>
+        ...
+      </ul>
+    </section>
+    <section id="chicken">
+      <h1>Chicken</h1>
+      <ul id="recipe-list">
+        <li>
+          <img src="chicken-1.jpg" alt="BBQ Chicken">
+          <h2>BBQ Chicken</h2>
+          <p>Ingredients: ...</p>
+          <p>Instructions: ...</p>
+        </li>
+        <li>
+          <img src="chicken-2.jpg" alt="Grilled Chicken">
+          <h2>Grilled Chicken</h2>
+          <p>Ingredients: ...</p>
+          <p>Instructions: ...</p>
+        </li>
+        ...
+      </ul>
+    </section>
+    <section id="beef">
+      <h1>Beef</h1>
+      <ul id="recipe-list">
+        <li>
+          <img src="beef-1.jpg" alt="BBQ Beef Brisket">
+          <h2>BBQ Beef Brisket</h2>
+          <p>Ingredients: ...</p>
+          <p>Instructions: ...</p>
+        </li>
+        <li>
+          <img src="beef-2.jpg" alt="Steak">
+          <h2>Steak</h2>
