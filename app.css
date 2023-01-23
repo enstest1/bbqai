@@ -1,127 +1,822 @@
 /* Using a bold and modern font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-/* Body and text styles */
+/* Body and text styles /
 body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #2f3640; /* Using a dark background color */
-  color: #fff;
-  text-align: center;
+font-family: 'Montserrat', sans-serif;
+background-color: #2f3640; / Using a dark background color */
+color: #fff;
+text-align: center;
 }
 
-/* Headings styles */
+/* Headings styles /
 h1, h2 {
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 2em; /* Increasing font size for headings */
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-size: 2em; / Increasing font size for headings */
 }
 
 /* Navigation styles */
 nav {
-  background-color: #2f3640;
-  padding: 1em;
+background-color: #2f3640;
+padding: 1em;
 }
 
 nav ul {
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
+display: flex;
+justify-content: center;
+list-style-type: none;
 }
 
 nav a {
-  color: #fff;
-  text-decoration: none;
-  padding: 1em;
-  font-size: 1.2em;
+color: #fff;
+text-decoration: none;
+padding: 1em;
+font-size: 1.2em;
 }
 
-/* Adding hover effect to navigation links */
+/* Adding hover effect to navigation links /
 nav a:hover {
-  color: #ff6b81; /* Using a bold and vibrant color */
-  transition: color 0.2s ease-in-out; /* Adding a smooth transition */
+color: #ff6b81; / Using a bold and vibrant color /
+transition: color 0.2s ease-in-out; / Adding a smooth transition */
 }
 
-/* Section styles */
+/* Section styles /
 section {
-  padding: 2em; /* Adding some padding */
-  box-shadow: 0px 0px 10px #ff6b81; /* Adding a shadow with a retro wave color */
-  border-radius: 10px; /* Adding rounded edges for a futuristic look */
-  overflow: hidden; /* Hiding overflow for animation */
+max-width: 1200px;
+margin: 0 auto;
+background-color: #202124; / Using a darker background color for contrast /
+padding: 2em; / Adding some padding /
+box-shadow: 0px 0px 10px #ff6b81; / Adding a shadow with a retro wave color /
+border-radius: 10px; / Adding rounded edges for a futuristic look /
+overflow: hidden; / Hiding overflow for animation */
 }
 
-/* Adding animation to section */
+/* Adding animation to section /
 section:hover {
-  transform: scale(1.05); /* Scaling up on hover */
-  transition: transform 0.2s ease-in-out; /* Adding a smooth transition */
+transform: scale(1.05); / Scaling up on hover /
+transition: transform 0.2s ease-in-out; / Adding a smooth transition */
 }
 
 /* Recipe list styles */
 #recipe-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
 }
 
 #recipe-list li {
-  width: 30%; /* Setting the width of each recipe item */
-  margin: 1em;
-  background-color: #ff6b81; /* Using a bold and vibrant color for recipe items */
-  padding: 1em;
-  box-shadow: 0px 0px 10px #2f3640; /* Adding a shadow with a darker color for contrast */
-  border-radius: 10px; /* Adding rounded edges for a futuristic look */
-  overflow: hidden; /* Hiding overflow for animation */
+width: 30%; /* Setting the width of each recipe item /
+margin: 1em;
+background-color: #ff6b81; / Using a bold and vibrant color for recipe items /
+padding: 1em;
+box-shadow: 0px 0px 10px #2f3640; / Adding a shadow with a darker color for contrast /
+border-radius: 10px; / Adding rounded edges for a futuristic look /
+overflow: hidden; / Hiding overflow for animation */
 }
 
-/* Adding animation to recipe items */
+/* Adding animation to recipe items /
 #recipe-list li:hover {
-  transform: scale(1.05); /* Scaling up on hover */
-  transition: transform 0.2s ease-in-out; /* Adding a smooth transition */
+transform: scale(1.05); / Scaling up on hover /
+transition: transform 0.2s ease-in-out; / Adding a smooth transition */
+}
+
+Sure, here's the continuation of the CSS code:
+
+/* Adding hover effect to recipe items /
+#recipe-list li:hover {
+transform: scale(1.05); / Scaling up on hover /
+transition: transform 0.2s ease-in-out; / Adding a smooth transition /
+background-color: #ffa69e; / Adding a slight color change on hover for added visual interest */
 }
 
 /* Search form styles */
 #search-form {
-  display: flex;
-  justify-content: center;
-  margin: 1em 0;
+display: flex;
+justify-content: center;
+display: flex;
+justify-content: center;
+margin: 1em 0;
 }
 
 #search-form input {
-  padding: 0.5em;
-  font-size: 1.2em;
-  border: none;
-  border-radius: 10px; /* Adding rounded edges for a futuristic look */
-  box-shadow: 0px 0px 5px #ff6b81; /* Adding a shadow with a retro wave color */
-  background-color: #fff;
-  color: #333;
+padding: 0.5em;
+font-size: 1.2em;
+border: none;
+border-radius: 10px; /* Adding rounded edges for a futuristic look /
+box-shadow: 0px 0px 5px #ff6b81; / Adding a shadow with a retro wave color */
+background-color: #fff;
+color: #333;
 }
 
 #search-form button {
-  background-color: #ff6b81; /* Using a bold and vibrant color for the button */
-  color: #fff;
-  padding: 0.5em 1em;
-  border: none;
-  border-radius: 10px; /* Adding rounded edges for a futuristic look */
-  cursor: pointer;
-  font-size: 1.2em;
-  font-weight: bold;
-  box-shadow: 0px 0px 5px #2f3640; /* Adding a shadow with a darker color for contrast */
+background-color: #ff6b81; /* Using a bold and vibrant color for the button /
+color: #fff;
+padding: 0.5em 1em;
+border: none;
+border-radius: 10px; / Adding rounded edges for a futuristic look /
+cursor: pointer;
+font-size: 1.2em;
+font-weight: bold;
+box-shadow: 0px 0px 5px #2f3640; / Adding a shadow with a darker color for contrast */
 }
 
-/* Adding hover effect to the button */
+/* Adding hover effect to the button /
 #search-form button:hover {
-  background-color: #ff4757; /* Darkening the color on hover */
-  transition: background-color 0.2s ease-in-out; /* Adding a smooth transition */
+background-color: #ffa69e; / Changing button color on hover for added visual interest /
+transition: background-color 0.2s ease-in-out; / Adding a smooth transition */
+}
+
+/* Adding gradient background to the whole page /
+body::before {
+content: "";
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: linear-gradient(180deg, #6a11cb 0%, #2575fc 100%); / Using a gradient background to add more depth and interest to the design */
+z-index: -1;
+}
+
+/* Adding a box-shadow to the heading for the more modern look */
+h1, h2 {
+box-shadow: 0px 0px 20px #ff6b81;
+}
+
+/* Adding hover effect to navigation links */
+nav a:hover {
+text-decoration: underline;
+}
+
+/* Adding animation to section */
+section {
+transition: all 0.3s ease-in-out;
+}
+
+/* Adding a hover effect to the section */
+section:hover {
+box-shadow: 0px 0px 20px #ff6b81;
+}
+
+/* Adding a hover effect to recipe items */
+#recipe-list li:hover {
+box-shadow: 0px 0px 20px #ff6b81;
+}
+
+/* Adding a hover effect to the button */
+#search-form button:hover {
+box-shadow: 0px 0px 20px #ff6b81;
+}
+
+/* Adding hover effect to the search button /
+#search-form button:hover {
+background-color: #ffa69e; / Adding a slight color change on hover for added visual interest /
+transition: background-color 0.2s ease-in-out; / Adding a smooth transition */
+}
+
+/* Recipe item media styles /
+.recipe-media {
+width: 100%;
+overflow: hidden;
+border-radius: 10px; / Adding rounded edges for a futuristic look */
+}
+
+.recipe-media img {
+width: 100%;
+}
+
+/* Recipe item details styles */
+.recipe-details {
+padding: 1em;
+background-color: #fff;
+color: #333;
+text-align: left;
+}
+
+.recipe-details h3 {
+margin: 0;
+font-size: 1.5em;
+}
+
+.recipe-details p {
+margin: 0.5em 0;
+}
+
+/* Recipe item action styles */
+.recipe-actions {
+display: flex;
+justify-content: center;
+}
+
+.recipe-actions a {
+color: #fff;
+background-color: #ff6b81; /* Using a bold and vibrant color for the action buttons /
+padding: 0.5em 1em;
+border-radius: 10px; /* Adding rounded edges for a futuristic look */
+text-decoration: none;
+margin: 0 0.5em;
+}
+
+/* Adding hover effect to the recipe action buttons /
+.recipe-actions a:hover {
+background-color: #ffa69e; / Adding a slight color change on hover for added visual interest /
+transition: background-color 0.2s ease-in-out; / Adding a smooth transition */
+}
+
+/* Pagination styles */
+.pagination {
+display: flex;
+justify-content: center;
+}
+
+.pagination a {
+color: #fff;
+background-color: #ff6b81; /* Using a bold and vibrant color for the pagination buttons /
+padding: 0.5em 1em;
+border-radius: 10px; /* Adding rounded edges for a futuristic look */
+text-decoration: none;
+margin: 0 0.5em;
+}
+
+/* Adding hover effect to the pagination buttons /
+.pagination a:hover {
+background-color: #ffa69e; / Adding a slight color change on hover for added visual interest /
+transition: background-color 0.2s ease-in-out; / Adding a smooth transition */
 }
 
 /* Footer styles */
 footer {
-  background-color: #2f3640;
-  color: #fff;
-  padding: 1em;
-  text-align: center;
-  font-size: 1.2em;
-  font-weight: bold;
+background-color: #2f3640;
+color: #fff;
+padding: 1em;
+text-align: center;
 }
+
+/* Adding hover effect to footer links /
+footer a:hover {
+color: #ff6b81; / Using a bold and vibrant color /
+transition: color 0.2s ease-in-out; / Adding a smooth transition */
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+nav ul {
+flex-wrap: wrap;
+}
+
+nav a {
+text-align: center;
+}
+
+#recipe-list li {
+width: 100%; /* Setting the width of each recipe item to full width on small screens */
+
+/* Adding hover effect to the search button /
+#search-form button:hover {
+background-color: #ffa69e; / Adding a slight color change on hover for added visual interest /
+transition: background-color 0.2s ease-in-out; / Adding a smooth transition /
+cursor: pointer; / Changing cursor to pointer on hover */
+}
+
+/* Adding styles for the search results */
+#search-results {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+#search-results li {
+width: 30%; /* Setting the width of each search result item /
+margin: 1em;
+background-color: #ff6b81; / Using a bold and vibrant color for search result items /
+padding: 1em;
+box-shadow: 0px 0px 10px #2f3640; / Adding a shadow with a darker color for contrast /
+border-radius: 10px; / Adding rounded edges for a futuristic look /
+overflow: hidden; / Hiding overflow for animation */
+}
+
+/* Adding animation to search result items /
+#search-results li:hover {
+transform: scale(1.05); / Scaling up on hover /
+transition: transform 0.2s ease-in-out; / Adding a smooth transition */
+}
+
+/* Adding hover effect to search result items /
+#search-results li:hover {
+background-color: #ffa69e; / Adding a slight color change on hover for added visual interest /
+transition: background-color 0.2s ease-in-out; / Adding a smooth transition */
+}
+
+/* Adding styles for the footer /
+footer {
+background-color: #2f3640; / Using a dark background color */
+color: #fff;
+padding: 1em;
+text-align: center;
+}
+
+footer a {
+color: #fff; /* Using white color for links /
+text-decoration: none; / Removing underline from links */
+}
+
+/* Adding hover effect to footer links /
+footer a:hover {
+color: #ff6b81; / Using a bold and vibrant color /
+transition: color 0.2s ease-in-out; / Adding a smooth transition */
+}
+
+/* Adding styles for the images /
+img {
+max-width: 100%; / Setting the maximum width to 100% to prevent images from being too large */
+}
+
+/* Adding styles for the buttons /
+button {
+background-color: #ff6b81; / Using a bold and vibrant color for the button /
+color: #fff;
+padding: 0.5em 1em;
+border: none;
+border-radius: 10px; / Adding rounded edges for a futuristic look /
+box-shadow: 0px 0px 5px #2f3640; / Adding a shadow with a darker color for contrast */
+}
+
+/* Adding hover effect to buttons /
+button:hover {
+background-color: #ffa69e; / Adding a slight color change on hover for added visual interest /
+transition: background-color 0.2s ease-in-out; / Adding a smooth transition /
+cursor: pointer; / Changing cursor to pointer on hover */
+}
+
+/* Adding styles for the cards /
+.card {
+background-color: #fff; / Using a white background color for contrast /
+padding: 1em;
+box-shadow: 0px 0px 10px #2f3640; / Adding a shadow with a darker color for contrast /
+border-radius: 10px; / Adding rounded edges for a futuristic look */
+}
+
+/* Adding styles for the forms */
+form {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+form input, form textarea, form select {
+padding: 0.5em;
+font-size: 1.2em;
+border: none;
+border-radius: 10px; /* Adding rounded edges for a futuristic look /
+box-shadow: 0px 0px 5px #2f3640; / Adding a shadow with a darker color for contrast */
+background-color: #fff;
+color: #333;
+}
+
+/* Adding hover effect to form inputs /
+form input:hover, form textarea:hover, form select:hover {
+box-shadow: 0px 0px 10px #ff6b81; / Adding a shadow with a retro wave color on hover /
+transition: box-shadow 0.2s ease-in-out; / Adding a smooth transition */
+}
+
+/* Adding styles for the modal /
+.modal {
+position: fixed; / Positioning the modal in the center of the screen /
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: #fff; / Using a white background color for contrast /
+padding: 1em;
+box-shadow: 0px 0px 10px #2f3640; / Adding a shadow with a darker color for contrast /
+border-radius: 10px; / Adding rounded edges for a futuristic look /
+overflow: hidden; / Hiding overflow for animation */
+}
+
+/* Adding styles for the modal content */
+.modal-content {
+max-width: 800px;
+margin: 0 auto;
+}
+
+/* Adding styles for the modal close button /
+.modal-close {
+position: absolute; / Positioning the close button in the top right corner of the modal /
+top: 0;
+right: 0;
+color: #2f3640; / Using a darker color for the close button /
+font-size: 2em;
+cursor: pointer; / Changing cursor to pointer on
+
+hover */
+}
+
+/* Adding hover effect to the modal close button /
+.modal-close:hover {
+color: #ff6b81; / Changing color to a bold and vibrant color on hover /
+transition: color 0.2s ease-in-out; / Adding a smooth transition */
+}
+
+/* Adding styles for the carousel /
+.carousel {
+overflow: hidden; / Hiding overflow for animation */
+}
+
+.carousel-inner {
+display: flex; /* Displaying carousel items in a row */
+}
+
+.carousel-item {
+flex: 1; /* Setting the width of each carousel item to 1 */
+}
+
+/* Adding styles for the carousel controls /
+.carousel-control-prev, .carousel-control-next {
+position: absolute; / Positioning the controls at the top and bottom of the carousel /
+top: 50%;
+transform: translateY(-50%);
+font-size: 2em; / Increasing font size for visibility /
+color: #fff; / Using white color for controls */
+}
+
+/* Adding hover effect to the carousel controls /
+.carousel-control-prev:hover, .carousel-control-next:hover {
+color: #ff6b81; / Changing color to a bold and vibrant color on hover /
+transition: color 0.2s ease-in-out; / Adding a smooth transition /
+cursor: pointer; / Changing cursor to pointer on hover */
+}
+
+/* Changing the position of the prev control */
+.carousel-control-prev {
+left: 0;
+}
+
+/* Changing the position of the next control */
+.carousel-control-next {
+right: 0;
+}
+
+/* Adding styles for the carousel indicators /
+.carousel-indicators {
+display: flex; / Displaying indicators in a row /
+justify-content: center; / Centering the indicators */
+}
+
+.carousel-indicator {
+width: 10px; /* Setting the width of each indicator /
+height: 10px; / Setting the height of each indicator /
+background-color: #fff; / Using white color for indicators /
+border-radius: 50%; / Making indicators circular /
+margin: 0 10px; / Adding margin between indicators */
+}
+
+/* Adding hover effect to the carousel indicators /
+.carousel-indicator:hover {
+background-color: #ff6b81; / Changing color to a bold and vibrant color on hover /
+transition: background-color 0.2s ease-in-out; / Adding a smooth transition /
+cursor: pointer; / Changing cursor to pointer on hover */
+}
+
+/* Adding styles for the active carousel indicator /
+.carousel-indicator.active {
+background-color: #ff6b81; / Changing color to a bold and vibrant color for the active indicator */
+}
+
+/* Adding styles for the media queries /
+@media (min-width: 768px) {
+/ Adding styles for larger screens */
+}
+
+@media (max-width: 767px) {
+/* Adding styles for smaller screens */
+}
+
+/* Adding styles for print /
+@media print {
+/ Adding styles for when the page is printed */
+}
+
+/* Adding styles for screen readers /
+@media screen and (min-width: 768px) {
+/ Adding styles for screen readers on larger screens */
+}
+
+/* Adding hover effect to search button /
+#search-form button:hover {
+background-color: #ffa69e; / Adding a slight color change on hover for added visual interest /
+transition: background-color 0.2s ease-in-out; / Adding a smooth transition */
+}
+
+/* Recipe detail styles /
+#recipe-detail {
+background-color: #202124; / Using a darker background color for contrast /
+padding: 2em; / Adding some padding /
+box-shadow: 0px 0px 10px #ff6b81; / Adding a shadow with a retro wave color /
+border-radius: 10px; / Adding rounded edges for a futuristic look */
+}
+
+/* Recipe title styles /
+#recipe-detail h2 {
+font-size: 1.5em; / Increasing font size for recipe title */
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+
+/* Recipe image styles /
+#recipe-detail img {
+width: 100%; / Making the image full width /
+border-radius: 10px; / Adding rounded edges for a futuristic look /
+box-shadow: 0px 0px 10px #2f3640; / Adding a shadow with a darker color for contrast */
+}
+
+/* Recipe information styles */
+#recipe-info {
+margin: 1em 0;
+}
+
+#recipe-info p {
+font-size: 1.2em;
+}
+
+/* Recipe ingredient styles */
+#recipe-ingredients {
+margin: 1em 0;
+}
+
+#recipe-ingredients h3 {
+font-size: 1.2em;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+
+#recipe-ingredients ul {
+list-style-type: none;
+}
+
+#recipe-ingredients li {
+font-size: 1.2em;
+}
+
+/* Recipe instruction styles */
+#recipe-instructions {
+margin: 1em 0;
+}
+
+#recipe-instructions h3 {
+font-size: 1.2em;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+
+#recipe-instructions ol {
+list-style-type: decimal;
+}
+
+#recipe-instructions li {
+font-size: 1.2em;
+}
+
+/* Back button styles /
+.back-button {
+background-color: #ff6b81; / Using a bold and vibrant color for the button /
+color: #fff;
+padding: 0.5em 1em;
+border: none;
+border-radius: 10px; / Adding rounded edges for a futuristic look /
+box-shadow: 0px 0px 5px #ff6b81; / Adding a shadow with a retro wave color */
+text-align: center;
+text-decoration: none;
+}
+
+/* Adding hover effect to back button /
+.back-button:hover {
+background-color: #ffa69e; / Adding a slight color change on hover for added visual interest /
+transition: background-color 0.2s ease-in-out; / Adding a smooth transition */
+}
+
+/* Media queries /
+@media only screen and (max-width: 768px) {
+/ Navigation styles */
+nav {
+flex-wrap: wrap; /* Wrapping navigation items on smaller screens */
+}
+
+nav ul {
+flex-direction: column; /* Changing navigation layout on smaller screens */
+align-items: center;
+}
+
+nav a {
+text-align: center; /* Aligning navigation link text on smaller screens */
+}
+
+/* Recipe list styles /
+#recipe-list li {
+width: 100%; / Changing width of recipe items on smaller screens */
+}
+
+/* Search form styles /
+#search-form {
+flex-wrap: wrap; / Wrapping form elements on smaller screens */
+align-items: center;
+}
+
+#search-form input {
+width: 100%; /* Making the input field full width on smaller screens */
+}
+
+#search-form button {
+width: 100%; /* Making the button full width on smaller screens */
+}
+}
+}
+
+/* Additional styles for smaller screens /
+@media only screen and (max-width: 480px) {
+/ Headings styles /
+h1, h2 {
+font-size: 1.5em; / Decreasing font size for headings on smaller screens */
+}
+
+/* Navigation styles /
+nav a {
+font-size: 1em; / Decreasing font size for navigation links on smaller screens */
+}
+
+/* Recipe list styles /
+#recipe-list li {
+margin: 0.5em; / Decreasing margin for recipe items on smaller screens */
+}
+
+/* Recipe detail styles /
+#recipe-detail {
+padding: 1em; / Decreasing padding for recipe detail on smaller screens */
+}
+
+/* Recipe title styles /
+#recipe-detail h2 {
+font-size: 1.2em; / Decreasing font size for recipe title on smaller screens */
+}
+
+/* Additional recipe detail styles /
+#recipe-detail {
+margin: 2em auto; / Adding margin to recipe detail container */
+}
+
+/* Recipe information styles /
+#recipe-info {
+display: flex;
+justify-content: space-between; / Aligning recipe information items horizontally */
+}
+
+#recipe-info p {
+margin: 0; /* Removing margins from recipe information items */
+}
+
+#recipe-info span {
+font-weight: bold; /* Making recipe information labels bold */
+}
+
+/* Recipe ingredient styles /
+#recipe-ingredients {
+margin-top: 2em; / Adding margin to recipe ingredients container */
+}
+
+#recipe-ingredients h3 {
+margin-bottom: 0.5em; /* Adding margin to recipe ingredients heading */
+}
+
+/* Recipe instruction styles /
+#recipe-instructions {
+margin-top: 2em; / Adding margin to recipe instructions container */
+}
+
+#recipe-instructions h3 {
+margin-bottom: 0.5em; /* Adding margin to recipe instructions heading */
+}
+
+#recipe-instructions ol {
+counter-reset: step; /* Resetting counter for recipe instructions list */
+}
+
+#recipe-instructions li {
+counter-increment: step; /* Incrementing counter for recipe instructions list */
+}
+
+#recipe-instructions li:before {
+content: counter(step) ". "; /* Adding numbering to recipe instructions list items */
+}
+
+/* Recipe tags styles /
+#recipe-tags {
+margin-top: 2em; / Adding margin to recipe tags container */
+}
+
+#recipe-tags h3 {
+margin-bottom: 0.5em; /* Adding margin to recipe tags heading */
+}
+
+#recipe-tags ul {
+list-style-type: none; /* Removing bullet points from recipe tags list */
+}
+
+#recipe-tags li {
+display: inline-block; /* Displaying recipe tags list items inline /
+margin-right: 1em; / Adding margin between recipe tags */
+}
+
+/* Recipe rating styles /
+#recipe-rating {
+margin-top: 2em; / Adding margin to recipe rating container */
+}
+
+#recipe-rating h3 {
+margin-bottom: 0.5em; /* Adding margin to recipe rating heading */
+}
+
+#recipe-rating span {
+font-size: 2em; /* Increasing font size for recipe rating */
+}
+
+/* Comments styles /
+#comments {
+margin-top: 2em; / Adding margin to comments container */
+}
+
+#comments h3 {
+margin-bottom: 0.5em; /* Adding margin to comments heading */
+}
+
+#comments ul {
+list-style-type: none; /* Removing bullet points from comments list */
+}
+
+#comments li {
+margin-bottom: 1em; /* Adding margin between comments */
+}
+
+#comments li img {
+width: 50px; /* Setting width for comment user avatar /
+border-radius: 50%; / Making comment user avatar circular /
+float: left; / Floating comment user avatar to the left /
+margin-right: 1em; / Adding margin between comment user avatar and comment text */
+}
+
+#comments li p {
+margin: 0; /* Removing margins from comment text */
+}
+
+#comments li span {font-weight: bold; /* Making comment user name bold */
+}
+
+/* Add comment form styles /
+#add-comment {
+margin-top: 2em; / Adding margin to add comment form container */
+}
+
+#add-comment h3 {
+margin-bottom: 0.5em; /* Adding margin to add comment form heading */
+}
+
+#add-comment form {
+display: flex;
+flex-wrap: wrap; /* Wrapping form elements */
+}
+
+#add-comment form input, #add-comment form textarea {
+width: 100%; /* Making input and textarea fields full width /
+padding: 0.5em;
+margin-bottom: 1em; / Adding margin between form fields */
+}
+
+#add-comment form input[type="submit"] {
+width: auto; /* Resizing submit button to its content /
+background-color: #ff6b81; / Using a bold and vibrant color for the submit button /
+color: #fff;
+padding: 0.5em 1em;
+border: none;
+border-radius: 10px; / Adding rounded edges for a futuristic look /
+box-shadow: 0px 0px 5px #ff6b81; / Adding a shadow with a retro wave color */
+}
+
+/* Adding hover effect to submit button /
+#add-comment form input[type="submit"]:hover {
+background-color: #ffa69e; / Adding a slight color change on hover for added visual interest /
+transition: background-color 0.2s ease-in-out; / Adding a smooth transition */
+}
+
+/* Additional styles for smaller screens /
+@media only screen and (max-width: 480px) {
+/ Recipe information styles /
+#recipe-info {
+flex-wrap: wrap; / Wrapping recipe information items on smaller screens */
+}
+
+#recipe-info p {
+width: 100%; /* Making recipe information items full width on smaller screens */
+}
+
 
